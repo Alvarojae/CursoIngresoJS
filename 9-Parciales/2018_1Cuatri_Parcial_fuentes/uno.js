@@ -15,6 +15,6 @@ function mostrar()
     /*dato = document.getElementById("numeroUno").value ;
     dato1 = document.getElementById("numeroDos").value ;
     dato = parseInt (dato);
-    dato1 = parseInt (dato1);
+    dato1 = parseInt (dato1); sadasds
     */
 }
