@@ -4,6 +4,8 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
-
-	
+    dato = document.getElementById("sueldo").value ;
+    dato = parseInt (dato);
+    dato1 = (dato * 1.1);
+	document.getElementById("resultado").value = dato1;
 }

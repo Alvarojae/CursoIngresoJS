@@ -8,4 +8,6 @@ function SacarResto()
     dato1 = document.getElementById("numeroDivisor").value ;
     dato = parseInt (dato);
     dato1 = parseInt (dato1);
+    dividendo = (dato % dato1);
+    alert (dividendo);
 }
