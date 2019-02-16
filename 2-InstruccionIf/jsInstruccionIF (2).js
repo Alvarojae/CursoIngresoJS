@@ -7,6 +7,9 @@ if (dato >= 18)
  {
   alert ("mayor de edad");
    }
+}   
 
 
-}//FIN DE LA FUNCIÓN
+
+
+//FIN DE LA FUNCIÓN

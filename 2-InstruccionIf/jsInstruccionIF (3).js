@@ -7,7 +7,7 @@ if (dato >= 18)
  {
   alert ("mayor de edad");
    }
-else if (dato < 18)
+else 
 {
     alert ("menor de edad");
      }
