@@ -1,0 +1,6 @@
+git status
+git add .
+git commit -m "alvaro" 
+git config --global user.email "alvaroelena97@gmail.com"
+git config --global user.name "alvarojae"
+git push origin master
