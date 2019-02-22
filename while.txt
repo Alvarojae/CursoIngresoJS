@@ -1,0 +1,6 @@
+var cont=0;
+While (cont<5)  [la condicion se evalua true or false]
+{
+cont + 1 
+alert("")
+}
