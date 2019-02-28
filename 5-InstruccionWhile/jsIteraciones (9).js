@@ -1,17 +1,27 @@
 function mostrar()
 {
 
-	var contador=0;
+	var contador;
+	var numeroMaximo;
+	var numeroMinimo;
+	var numeroIngresado;
+	var respuesta;
 	// declarar variables
-	
-	var respuesta='si';
-
+	respuesta='si';
+	contador=0;
+	numeroMaximo=-9999;
 	while(respuesta!='no')
 	{
 		
-	
+		numeroIngresado=prompt("ingrese numero");
+		numeroIngresado=parseInt(numeroIngresado);
+		if(numeroIngresado>numeroMaximo)
+		{
+			numeroMaximo=numeroIngresado;
+		}
+		respuesta=prompt("ingrese no para salir");
 	}
-
+	console.log("el maximo es "+numeroMaximo);
 
 
 
