@@ -60,9 +60,6 @@ function mostrar()
 			numeroMinimo=numeroIngresado
 			bandera=1
 			
-			
-
-		
 		}else{
 			if(numeroIngresado>numeroMaximo)
 			{
