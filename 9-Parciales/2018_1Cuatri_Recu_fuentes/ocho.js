@@ -2,18 +2,31 @@ function mostrar()
 {
 
 
-
-
-while(continuar!=no)
-{
 var pais;
-var superficie
-var contadorImpar
+var superficie;
+var contadorImpar;
+var paisMenor;
+var paisIgual100;
+var sumaKilometros;
+var promedioKilometros;
+var primerPais;
+var contadorPaises;
+var territorioMenor;
+var continuar;
+var terterritorioMenor;
 
 //-----------------------------
-contadorImpar=0
+contadorImpar=0;
+paisMenor=0;
+paisIgual100=0;
+promedioKilometros=0;
+primerPais= "";
+contadorPaises=0;
+continuar="si";
+sumaKilometros=0;
 
-
+while(continuar!="no")
+{
 
 pais=prompt("ingrese un pais")
 superficie=prompt("ingrese superficie del pais")
@@ -27,13 +40,44 @@ superficie=parseInt(superficie)
 
   if(superficie%2==1)
   {
+
       contadorImpar++
   }
+    if(superficie<100)
+    {
+        
+        paisMenor++
+    } else {
 
+    if(superficie==100)
+    {
+        paisIgual100++
+    } 
+        
+            }
+    }
 
+    if(superficie>100 && primerPais=="")
+    {
+        primerPais=pais
+    }
+    if(territorioMenor<superficie && contadorPaises==0)
+    {
+        superficie=territorioMenor
+    }
+  
+   contadorPaises++
+   sumaKilometros= sumaKilometros + superficie
 
+ continuar=prompt("para salir escriba no")
 }
+promedioKilometros=sumaKilometros/contadorPaises
+
  console.log("la cantidad de paises impares son" + contadorImpar)
+ console.log("la cantidad de paises con menos de 100km de superficie son: " + paisMenor)
+ console.log("la cantidad de paises iguales a 100km son: " + paisIgual100)
+ console.log("el primer pais que supero los 100kms es:" + primerPais)
+ console.log("el promedio de kilometros es :" + promedioKilometros)
 
 
 
