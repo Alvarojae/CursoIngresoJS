@@ -13,7 +13,7 @@ var primerPais;
 var contadorPaises;
 var territorioMenor;
 var continuar;
-var terterritorioMenor;
+var territorioMenorNombre;
 
 //-----------------------------
 contadorImpar=0;
@@ -24,6 +24,7 @@ primerPais= "";
 contadorPaises=0;
 continuar="si";
 sumaKilometros=0;
+
 
 while(continuar!="no")
 {
@@ -38,11 +39,7 @@ superficie=parseInt(superficie)
       superficie=parseInt(superficie)
   }
 
-  if(superficie%2==1)
-  {
-
-      contadorImpar++
-  }
+ 
     if(superficie<100)
     {
         
@@ -54,16 +51,22 @@ superficie=parseInt(superficie)
         paisIgual100++
     } 
         
-            }
     }
-
+    if(superficie%2==1)
+    {
+    
+        contadorImpar++
+    }   
+    
     if(superficie>100 && primerPais=="")
     {
         primerPais=pais
     }
-    if(territorioMenor<superficie && contadorPaises==0)
+    if(superficie<territorioMenor || contadorPaises==0)
     {
-        superficie=territorioMenor
+    
+        territorioMenor=superficie
+        territorioMenorNombre=pais
     }
   
    contadorPaises++
@@ -73,11 +76,12 @@ superficie=parseInt(superficie)
 }
 promedioKilometros=sumaKilometros/contadorPaises
 
- console.log("la cantidad de paises impares son" + contadorImpar)
+ console.log("la cantidad de paises impares son: " + contadorImpar)
  console.log("la cantidad de paises con menos de 100km de superficie son: " + paisMenor)
  console.log("la cantidad de paises iguales a 100km son: " + paisIgual100)
  console.log("el primer pais que supero los 100kms es:" + primerPais)
  console.log("el promedio de kilometros es :" + promedioKilometros)
+ console.log("el pais con menos superficie es:" + territorioMenorNombre)
 
 
 
