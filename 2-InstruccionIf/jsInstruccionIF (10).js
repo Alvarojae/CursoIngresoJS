@@ -3,14 +3,18 @@ function mostrar() {
 	var dato
 	dato = Math.floor(Math.random() * 10 + 1);
 	alert(dato)
-	if (dato == 9 || dato == 10) {
+	if (dato == 9 || dato == 10) 
+	{
 		alert("EXCELENTE")
 	}
-	else {
-		if (dato >= 4) {
+	else 
+	{
+		if (dato >= 4) 
+		{
 			alert("APROBÓ")
 		}
-		else {
+		else 
+		{
 			alert ("Vamos, la proxima se puede")
 		}
 	}

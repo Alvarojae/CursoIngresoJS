@@ -4,9 +4,9 @@ function mostrar()
 dato = document.getElementById("edad").value ;
 dato = parseInt (dato);
 if (dato === 15)
- {
-  alert ("niña bonita");
-   }
+{
+    alert ("niña bonita");
+}
 
 
 }//FIN DE LA FUNCIÓN

@@ -4,8 +4,8 @@ function mostrar()
 dato = document.getElementById("edad").value ;
 dato = parseInt (dato);
 if (! (dato > 12 && dato <18 ))
- {
-  alert ("No sos Adolescente");
-   }
+{
+   alert ("No sos Adolescente");
+}
 
 }//FIN DE LA FUNCIÓN

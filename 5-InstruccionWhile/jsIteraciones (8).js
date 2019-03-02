@@ -38,7 +38,7 @@ function mostrar()
 		if (edad==100)
 		{
 			break;
-	    }
+	  }
 		
 		contadorDeVueltas++
 	}
