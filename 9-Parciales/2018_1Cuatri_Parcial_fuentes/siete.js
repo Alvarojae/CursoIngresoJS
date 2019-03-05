@@ -41,11 +41,13 @@ if(notas>0)
 {
     sumaNotas=notas+sumaNotas
 }
+
 if(notas<notabaja)
 {
-notabaja=notas
-sexomenor=sexo
+    notabaja=notas
+    sexomenor=sexo
 }
+
 if(notas>5 && sexo=="m")
 {
     contadorvarones++
@@ -56,8 +58,6 @@ alumnos++
 promedioNotas=sumaNotas/alumnos
 alert("el promedio de notas totales es : " + promedioNotas)
 alert("la nota mas baja es : " + notabaja + " y el sexo de la nota es: " + sexomenor)
-alert("la cantidad de varones que su nota fue mayor a 6 fue: " + contadorvarones)
-
-
+alert("la cantidad de varones que su nota fue mayor o igual a 6 fue: " + contadorvarones)
 
 }
