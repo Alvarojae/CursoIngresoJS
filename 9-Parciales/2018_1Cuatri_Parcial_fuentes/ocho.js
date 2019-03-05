@@ -36,7 +36,7 @@ function mostrar()
         numero=parseInt(numero)
 
 
-        while(numero<-100 || numero>100 )
+        while(!(numero>-100 || numero<100))
         {
             numero=prompt("por favor ingrese un numero entre -100 y 100")
             numero=parseInt(numero)

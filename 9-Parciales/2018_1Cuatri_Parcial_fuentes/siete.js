@@ -14,11 +14,7 @@ promedioNotas=0;
 notabaja=11;
 contadorvarones=0;
 sumaNotas=0;
-
-
 //definir variables
-
-
 
 while(alumnos<2)
 {

@@ -31,7 +31,7 @@ function mostrar()
         default:
         alerta=("es de noche")
         
-        if(hora<=24 && hora>=19)
+        if(hora<24 && hora>19)
         {
             alert("es de noche")
             alerta=("a dormir")
