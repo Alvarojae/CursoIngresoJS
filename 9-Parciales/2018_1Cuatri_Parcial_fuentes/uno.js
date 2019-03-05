@@ -2,6 +2,12 @@
 function mostrar()
 {
     
+    var dato;
+    var dato1;
+    var perimetro;
+    var a ;
+    var b;
+    //-------------------------------------
     dato = prompt ("ancho")
     dato1 = prompt ("largo")
     dato = parseInt (dato)

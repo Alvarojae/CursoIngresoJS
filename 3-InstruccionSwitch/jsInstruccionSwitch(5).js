@@ -2,9 +2,9 @@ function mostrar()
 {
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
-
-//alert (laHora);
 var alerta;
+//alert (laHora);
+
 laHora = parseInt (laHora)
 switch(laHora)
 {

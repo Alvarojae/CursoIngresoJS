@@ -39,9 +39,7 @@ function mostrar()
         {
             numero=prompt("por favor ingrese un numero entre -100 y 100")
             numero=parseInt(numero)
-     
         }
-
 
         if(numero==0)
         {
