@@ -20,17 +20,20 @@ sumaNotas=0;
 
 
 
-while(alumnos<5)
+while(alumnos<2)
 {
+
     notas=prompt("ingrese nota")
     notas=parseInt(notas) 
-    sexo=prompt("Sexo f o m?")
+    
 
-while(notas<0 || notas>10)
+while(!(notas>=0 && notas<=10))//(notas<0 || notas>10) && notas!="")
 {
     notas=prompt("ingrese nota correcta(entre 0 y 10)")
     notas=parseInt(notas) 
 }
+sexo=prompt("Sexo f o m?")
+
 while(sexo!="f" && sexo!="m")
 {
     sexo=prompt("ingrese el sexo correctamente(f o m)")

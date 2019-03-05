@@ -21,13 +21,14 @@ if(dato==dato1)
     }else
     {
         alert(dato+dato1)
+
+        if(dato+dato1>10)
+        {
+            alert( "la suma es " + (dato+dato1) +" y supero el 10")
+        }
+
     }
 
-}
-
-if(dato+dato1>10)
-{
-    alert( "la suma es " + (dato+dato1) +" y supero el 10")
 }
 
 

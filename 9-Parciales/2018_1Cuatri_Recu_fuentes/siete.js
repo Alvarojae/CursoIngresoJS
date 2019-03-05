@@ -25,16 +25,17 @@ function mostrar()
      while(contador<5)
      {
          velocidad=prompt("velocidad en kilometros, (entre 0 y 250)")
-         combustible=prompt("combustible, S o L (solido o liquido)")
          velocidad=parseInt(velocidad)
-         
          
          while(velocidad<0 || velocidad>250)
          {
              velocidad=prompt("velocidad de entre 0 y 250")
              velocidad=parseInt(velocidad)
-
+   
          }
+
+         combustible=prompt("combustible, S o L (solido o liquido)")
+         
          while(combustible!="S" && combustible!="L" )
          {
             combustible=prompt("S o L(solido o liquido)")

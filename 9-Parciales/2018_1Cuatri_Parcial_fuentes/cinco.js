@@ -3,18 +3,18 @@ function mostrar()
 var planeta;
 var alerta;
 //------------
-//Planeta = prompt("ingresar un planeta del sistema solar ")
+planeta = prompt("ingresar un planeta del sistema solar ")
 
-switch(planeta=prompt("ingresar planeta")) 
+switch(planeta)
 {
     case "tierra":
         alerta=( "acá vivimos.")
         break;
-    case "mercurio" :
-    case "venus"    :
+    case "mercurio":
+    case "venus":
         alerta=("acá hace más calor.")
         break;
-    case "marte" :
+    case "marte":
     case "júpiter":
     case "saturno":
     case "urano":

@@ -4,7 +4,6 @@ function mostrar()
 var laHora = document.getElementById('hora').value;
 var alerta;
 //alert (laHora);
-
 laHora = parseInt (laHora)
 switch(laHora)
 {

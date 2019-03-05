@@ -15,8 +15,9 @@ function mostrar()
     var letraMinima
     var bandera
 
-
+   
     //---------------------------
+    
     continuar="no"
     numero=0
     contadoraCero=0
