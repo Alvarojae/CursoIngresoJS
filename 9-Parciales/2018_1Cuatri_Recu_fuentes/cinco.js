@@ -1,6 +1,99 @@
 function mostrar() 
 {
-    var importe1;
+    var dia;
+    var alerta;
+  
+    //-----------------------
+    dia=prompt("ingresar un dia");
+
+    switch (dia) 
+    {
+      case "lunes":
+      case "martes":
+      case "miercoles":
+      case "jueves":
+      case "viernes":
+      alerta=("a trabajar");
+
+      break;
+      case "sabado":
+      case "domingo":
+      alerta=("buen finde");
+      
+      break;
+      default:
+      alerta=("dia no valido");
+        break;
+    
+      }
+  
+    alert(alerta);
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   /* var importe1;
     var importe2;
     var importe3;
     var importe4;
@@ -59,4 +152,4 @@ function mostrar()
     } //descuento
 
 
-}
+}*/

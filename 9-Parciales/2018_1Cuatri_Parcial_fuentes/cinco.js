@@ -15,7 +15,7 @@ switch(planeta)
         alerta=("acá hace más calor.")
         break;
     case "marte":
-    case "júpiter":
+    case "jupiter":
     case "saturno":
     case "urano":
     case "neptuno":

@@ -1,14 +1,14 @@
 
 function mostrar()
 {
-    var dato
-    var dato1
+    var base
+    var altura
     //------------
-    dato=prompt("ingresar ancho del rectangulo")
-    dato1=prompt("ingresar largo del rectangulo")
-    dato=parseInt(dato)
-    dato1=parseInt(dato1)
+    base=prompt("ingresar base del rectangulo")
+    altura=prompt("ingresar altura del rectangulo")
+    base=parseInt(base)
+    altura=parseInt(altura)
 
-    alert(dato*2+dato1*2)
+    alert("perimetro es: " + (base*3) + " y el area es: " + ((base*altura)/2))
 
 }
